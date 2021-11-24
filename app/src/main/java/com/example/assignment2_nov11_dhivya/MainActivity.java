@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
           AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
           // Set the message show for the Alert time
           builder.setTitle("Thank you for Shopping!");
-          builder.setMessage("Your purchase is "+ listprodname + "of quantity"+ChosenQty+"at price"+ChosenPrice);
+          builder.setMessage("Your purchase is "+ ChosenItem + "of quantity "+ChosenQty+"at price"+ChosenPrice);
           // Set Alert Title
           builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
               @Override
